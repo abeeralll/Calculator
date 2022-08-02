@@ -12,8 +12,8 @@ just chang   e-->
 </head>
 
 <body>
-    <div class="container p-5" id="container">
-        <div class="calculator-grid p-5">
+    <div class="container content" id="container">
+        <div class="calculator-grid ">
 
             <div class="output">
 
@@ -39,7 +39,7 @@ just chang   e-->
             <button onclick="operator('substract')" id="yellow">-</button>
             <button onclick="button('.')" id="grey" >.</button>
             <button onclick="button(0)" id="grey" >0</button>
-            <button onclick="result()" class="span-two" id="yellow">=</button>
+            <button onclick="equals()" class="span-two" id="yellow">=</button>
 
 
 
